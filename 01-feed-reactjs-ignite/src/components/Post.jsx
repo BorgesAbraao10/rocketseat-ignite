@@ -21,14 +21,14 @@ export function Post() {
       </header>
       <div className={styles.content}>
         <p>
-          "O São Paulo F.C. é mais que um time, é uma paixão que pulsa em cada
+          O São Paulo F.C. é mais que um time, é uma paixão que pulsa em cada
           vitória, em cada derrota que enfrentamos juntos. A cada jogo, minha
           alma se veste de vermelho, preto e branco, e meu coração bate no ritmo
           acelerado das emoções. Somos uma nação tricolor, uma família que
           compartilha alegrias e tristezas, mas nunca deixa de acreditar. O
           Morumbi é nosso altar, e cada jogador, um herói que defende nossas
           cores. Vamos São Paulo, a torcida está contigo, hoje e sempre! 🔴⚪⚫
-          #VamosSãoPaulo #TricolorPeloMundo"
+          #VamosSãoPaulo #TricolorPeloMundo
         </p>
       </div>
     </article>
