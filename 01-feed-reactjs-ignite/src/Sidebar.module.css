@@ -2,6 +2,7 @@
   background: var(--gray-800);
   border-radius: 8px;
   overflow: hidden;
+  border-top: 2px solid var(--red-500);
 }
 
 .cover {
@@ -14,6 +15,15 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-top: calc(1.5rem -6px);
+}
+
+.minhaImagem {
+  box-sizing: initial;
+  width: 4rem;
+  height: auto;
+  border-radius: 8px;
+  border: 2px solid var(--red-500);
 }
 
 .sidebar footer {
@@ -25,7 +35,7 @@
 .sidebar footer a {
   background: transparent;
   color: var(--white);
-  border: 1px solid var(--red-500);
+  border: 2px solid var(--red-500);
   border-radius: 8px;
   height: 50px;
   padding: 0 1.5rem;
