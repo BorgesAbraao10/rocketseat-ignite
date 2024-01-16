@@ -1,6 +1,6 @@
 import styles from "./Sidebar.module.css";
 
-import minhaImagem from './assets/abraao-avatar.jpg'
+import minhaImagem from "./assets/avatar.png";
 export function Sidebar() {
   return (
     <aside className={styles.sidebar}>
@@ -11,7 +11,7 @@ export function Sidebar() {
       />
 
       <div className={styles.profile}>
-        <img src={minhaImagem} alt="avatar" className={styles.minhaImagem}/>
+        <img src={minhaImagem} alt="avatar" className={styles.minhaImagem} />
         <strong>Abraão Borges</strong>
         <span>Sócio Torcedor</span>
       </div>
