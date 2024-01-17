@@ -85,7 +85,7 @@
   margin-top: 1rem;
   border-radius: 8px;
   border: 0;
-  background: var(--red-500);
+  background: var(--red-200);
   color: var(--white);
   font-weight: bold;
   cursor: pointer;
@@ -93,6 +93,6 @@
   transition: background-color 0.1s;
 }
 
-.commentForm button[type=submit]:hover {
-  background: var(--gray-100);
+.commentForm button[type="submit"]:hover {
+  background: var(--red-500);
 }
