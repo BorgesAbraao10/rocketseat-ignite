@@ -1,11 +1,14 @@
 import styles from "./Comment.module.css";
 
+import { Trash, ThumbsUp } from 'react-icons/fa';
+
+
 export function Comment() {
   return (
     <div className={styles.Comment}>
       <img src="https://github.com/BorgesAbraao10.png" alt="Imagem Avatar" />
 
-      <div className={styles.comment.Box}>
+      <div className={styles.commentBox}>
         <div className={styles.commentContent}>
           <header>
             <div className={styles.authorAndTime}>
